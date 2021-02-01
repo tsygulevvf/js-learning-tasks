@@ -38,7 +38,7 @@ colorSelector.addEventListener('change', (e) => {
   for (let i = 0; i < items.length; i++) {
     const currentBlock = items[i];
     const blockNumber = i +1;
-    let colorToApply = ';'
+    let colorToApply = '';
 
     if (changed) {
       colorToApply = blockNumber % 2 != 0 ? color : '#fff';
